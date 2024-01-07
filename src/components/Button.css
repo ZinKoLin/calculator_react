@@ -1,0 +1,29 @@
+.btn-container{
+    width: 400;
+   
+}
+
+.btn-group{
+    display: flex;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    transition: .7s;
+}
+
+.btn-long{
+    border: none;
+    width: 300px;
+    background-color: orange;
+}
+.btn-btn-space{
+    background-color: black;
+    color:white;
+}
+.btn:hover{
+    background-color: #646262;
+    color: white;
+}
