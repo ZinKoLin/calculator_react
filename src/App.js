@@ -13,7 +13,8 @@ function App() {
       setInputValue(0);
       setOutputValue(0);
     } else if (value === "AC") {
-      setInputValue(0);
+     input.length === 1 ? setInputValue(input):  setInputValue(input.slice(0,input.length-1))
+
     } else if (value === "=") {
       setOutputValue(eval(input));
       setInputValue(0);

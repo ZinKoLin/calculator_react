@@ -16,11 +16,12 @@
 
 .btn-long{
     border: none;
-    width: 300px;
+    width: 200px;
     background-color: orange;
 }
 .btn-btn-space{
     background-color: black;
+    width: 200px;
     color:white;
 }
 .btn:hover{

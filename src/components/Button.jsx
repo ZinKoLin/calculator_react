@@ -35,7 +35,7 @@ const Button = ({clickEventHandling}) => {
         <button className="btn" onClick={(e)=>clickEventHandling(e.target.innerText)}>/</button>
       </div>
       <div className="btn-group">
-        <button className="btn btn-btn-space"  onClick={(e)=>clickEventHandling(e.target.innerText)}> </button>
+        <button className="btn btn-btn-space" >React Calculator</button>
         <button className="btn-long"  onClick={(e)=>clickEventHandling(e.target.innerText)}>=</button>
        
       </div>
